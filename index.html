@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retail Sales Intelligence Dashboard</title>
+    <meta name="description" content="Executive retail sales intelligence dashboard featuring multi-store analytics, KPI performance tracking, inventory stockout risk monitoring, and Excel/CSV ingestion." />
+    <meta property="og:title" content="Retail Sales Intelligence Dashboard" />
+    <meta property="og:description" content="Executive retail sales intelligence dashboard featuring multi-store analytics, KPI performance tracking, inventory stockout risk monitoring, and Excel/CSV ingestion." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- CDN fallbacks for XLSX and PapaParse so file uploads never fail bundler checks -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

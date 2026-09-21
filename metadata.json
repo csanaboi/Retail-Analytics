@@ -1,0 +1,6 @@
+{
+  "name": "Retail Sales Intelligence Dashboard",
+  "description": "Executive retail sales intelligence dashboard featuring multi-store analytics, KPI performance tracking, inventory stockout risk monitoring, and Excel/CSV ingestion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
